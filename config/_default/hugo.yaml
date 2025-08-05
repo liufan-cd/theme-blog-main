@@ -18,8 +18,8 @@ cascade:
     pager: true
     editable: true
     hide_date: false
-    show_date_updated: true
-    reading_time: true
+    show_date_updated: false
+    reading_time: false
     commentable: true
     show_related: true
     share: true
@@ -29,6 +29,7 @@ cascade:
       navbar:
         enable: true
 
+custom_css: css/custom.css
 ############################
 ## LANGUAGE
 ############################
@@ -70,7 +71,6 @@ taxonomies:
   category: categories
   author: authors
 markup:
-  _merge: deep
   highlight:
     style: "github-dark"
     lineNos: true
