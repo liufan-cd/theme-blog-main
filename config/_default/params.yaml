@@ -83,3 +83,25 @@ features:
     url: 'https://github.com/HugoBlox/hugo-blox-builder/'
     content_dir: starters/blog/content
     branch: main
+# 代码高亮与样式设置
+highlight:
+  # 选择代码主题（使用 GitHub 风格）
+  theme: "github"  # 关键参数：指定 GitHub 主题
+  # 可选：是否启用行号
+  line_numbers: true  # 显示代码行号（类似 GitHub 代码预览）
+  # 代码块样式微调（部分主题支持）
+  style:
+    # 代码块背景色（GitHub 风格通常为浅灰）
+    background: "#f5f5f5"
+    # 代码块边框样式
+    border: "1px solid #e1e4e8"
+    # 圆角（GitHub 代码块常用轻微圆角）
+    borderRadius: "6px"
+
+# 文章中代码块的全局设置（部分主题使用）
+article:
+  code:
+    # 代码字体（GitHub 常用等宽字体）
+    font_family: "SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace"
+    # 字体大小
+    font_size: "0.875rem"
