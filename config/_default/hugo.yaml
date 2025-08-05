@@ -71,6 +71,8 @@ taxonomies:
   author: authors
 markup:
   _merge: deep
+  highlight:
+    style: monokai
 related:
   threshold: 80
   includeNewer: true
