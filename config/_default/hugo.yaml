@@ -72,7 +72,10 @@ taxonomies:
 markup:
   _merge: deep
   highlight:
-    style: github-dark
+    style: "github-dark"
+    lineNos: true
+    lineNumbersInTable: false
+    noClasses: false
 related:
   threshold: 80
   includeNewer: true
