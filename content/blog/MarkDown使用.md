@@ -2,6 +2,7 @@
 title: 🥟 markdown语法
 summary: markdown语法汇总
 date: 2025-08-06
+math: true
 authors:
   - admin
 tags:
