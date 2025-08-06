@@ -1,3 +1,13 @@
+---
+title: ❌ 疑难代码写法记录
+summary: 遇到的一些令人疑惑的问题及其代码实现
+date: 2025-08-05
+authors:
+  - admin
+tags:
+  - other
+---
+
 ```java
     // 需要反序列化如下类
     static class MqMessage<T> {

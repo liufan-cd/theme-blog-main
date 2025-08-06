@@ -1,3 +1,12 @@
+---
+title: 🌞 MySQL执行计划
+summary: 使用MySQL执行计划对sql进行优化
+date: 2025-08-05
+authors:
+  - admin
+tags:
+  - 代码优化
+---
 # MySQL 执行计划
 
 在优化 MySQL 查询性能时，理解查询的执行计划是非常重要的。MySQL 提供了 `EXPLAIN` 命令来帮助我们分析查询的执行过程。

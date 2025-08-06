@@ -1,3 +1,12 @@
+---
+title: 🔊 通过python访问gitlab
+summary: 通过python访问gitlab
+date: 2025-08-05
+authors:
+  - admin
+tags:
+  - python
+---
 ## 通过python访问gitlab
 
 ### 环境配置

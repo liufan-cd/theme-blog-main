@@ -1,3 +1,12 @@
+---
+title: 🚌 JNI
+summary: java本地代码支持
+date: 2025-08-05
+authors:
+  - admin
+tags:
+  - java与语言交互
+---
 ## JNI
 
 ### 什么是 JNI

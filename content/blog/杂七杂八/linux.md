@@ -1,3 +1,13 @@
+---
+title: 🧩 linux
+summary: linux常用命令
+date: 2025-08-05
+authors:
+  - admin
+tags:
+  - linux
+  - 命令
+---
 ### 常用命令
 
 查看cpu，内存

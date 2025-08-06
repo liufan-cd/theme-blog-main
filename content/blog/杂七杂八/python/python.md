@@ -1,3 +1,13 @@
+---
+title: 🥼 python
+summary: python安装以及使用
+date: 2025-08-05
+authors:
+  - admin
+tags:
+  - python
+  - 软件安装
+---
 ## python
 ### python安装
 - 安装包[python-3.13.3-amd64.exe](python-3.13.3-amd64.exe)

@@ -1,3 +1,13 @@
+---
+title: 🚩 markdown文件解析
+summary: 将markdown文件编译为html并在浏览器中打开
+date: 2025-08-05
+authors:
+  - admin
+tags:
+  - markdown
+  - python
+---
 ## 简介
 想要快速在浏览器中展示markdown文件
 

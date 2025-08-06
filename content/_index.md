@@ -17,9 +17,8 @@ sections:
   - block: collection
     id: blog
     content:
-      title: Recent Posts
-      subtitle: ''
-      text: 'Check out my recent blog posts below!'
+      title: 博客
+      text: '没事干写的博客'
       # Choose how many pages you would like to display (0 = all pages)
       count: 5
       # Filter on criteria
@@ -43,5 +42,5 @@ sections:
       sort_ascending: false
     design:
       # Choose a listing view
-      view: showcase
+      view: card
 ---

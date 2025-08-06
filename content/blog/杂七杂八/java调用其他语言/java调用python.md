@@ -1,3 +1,12 @@
+---
+title: 🤕 java调用python
+summary: java软件中嵌入python代码块
+date: 2025-08-05
+authors:
+  - admin
+tags:
+  - java与其他语言交互
+---
 ## 简介
 使用java语言调用python
 

@@ -1,3 +1,12 @@
+---
+title: 🀄 springboot打包方式
+summary: 解析springboot如何将java文件打包成可执行jar包
+date: 2025-08-05
+authors:
+  - admin
+tags:
+  - spring
+---
 ## springboot打包
 ### springboot包目录结构
 ```

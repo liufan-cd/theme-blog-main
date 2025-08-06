@@ -1,3 +1,12 @@
+---
+title: ⛲ JNA
+summary: java本地代码支持开源库
+date: 2025-08-05
+authors:
+  - admin
+tags:
+  - java与语言交互
+---
 ## 使用 JNA
 JNA（Java Native Access）是一个开源的 Java 库，允许 Java 程序无需 JNI 代码即可直接调用本地（如 C/C++）共享库中的函数。JNA 通过动态代理和反射机制，将 Java 接口方法映射为本地库中的函数调用，大大简化了 Java 与本地代码的集成开发。
 
