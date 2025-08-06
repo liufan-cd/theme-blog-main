@@ -20,6 +20,8 @@ sections:
       subtitle: A subtitle
       text: Add any **markdown** formatted content here - text
       filters:
+        date:
+        after: "2020-01-01"
         folders:
           - blog
     design:
