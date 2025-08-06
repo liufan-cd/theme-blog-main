@@ -22,6 +22,7 @@ sections:
       filters:
         date:
         after: "2020-01-01"
+        authors: admin
         folders:
           - blog
     design:
