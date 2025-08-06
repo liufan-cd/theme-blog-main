@@ -50,6 +50,7 @@ body {
 .dark .highlight .chroma .kp,
 .dark .highlight .chroma .kr { 
   color: #ff7b72; /* kr及相关关键字 */
+  font-style: normal;
 }
 
 .dark .highlight .chroma .kt { 
