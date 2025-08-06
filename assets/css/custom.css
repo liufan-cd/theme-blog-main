@@ -160,19 +160,18 @@ body {
   border-top: none;
 }
 
-/* 代码块基础样式 */
+/* GitHub Light 风格代码块基础样式 */
 html:not(.dark) .highlight .chroma {
-  background-color: #161b22 !important;
-  color: #c9d1d9 !important;
+  background-color: #f6f8fa !important;
+  color: #24292f !important;
   padding: 16px;
   overflow-x: auto;
   font-size: 85%;
   line-height: 1.45;
-  border-radius: 3px;
+  border-radius: 6px;
   margin-top: 0;
   margin-bottom: 16px;
-  border: 1px solid #30363d;
-  /* 代码块专用字体 */
+  border: 1px solid #d0d7de;
   font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 }
 
@@ -183,42 +182,44 @@ html:not(.dark) .highlight .chroma .lntd:first-child {
 }
 html:not(.dark) .highlight .chroma .lnt,
 html:not(.dark) .highlight .chroma .ln {
-  color: #8b949e;
+  color: #6e7781;
   user-select: none;
   padding-right: 1em;
   display: inline-block;
 }
 
-/* 语法高亮样式 - 保持元素颜色差异 */
+/* 注释 */
 html:not(.dark) .highlight .chroma .c,
 html:not(.dark) .highlight .chroma .cm,
 html:not(.dark) .highlight .chroma .cp,
 html:not(.dark) .highlight .chroma .c1,
 html:not(.dark) .highlight .chroma .cs,
 html:not(.dark) .highlight .chroma .ch,
-html:not(.dark) .highlight .chroma .cpf { 
-  color: #8b949e; /* 注释 */
+html:not(.dark) .highlight .chroma .cpf {
+  color: #6e7781;
+  font-style: italic;
 }
 
-/* 关键字 - 区分kr和kt */
+/* 关键字 */
 html:not(.dark) .highlight .chroma .k,
 html:not(.dark) .highlight .chroma .kd,
 html:not(.dark) .highlight .chroma .kn,
 html:not(.dark) .highlight .chroma .kp,
-html:not(.dark) .highlight .chroma .kr { 
-  color: #ff7b72; /* kr及相关关键字 */
-  font-style: normal;
+html:not(.dark) .highlight .chroma .kr {
+  color: #cf222e;
+  font-weight: bold;
+}
+html:not(.dark) .highlight .chroma .kt {
+  color: #0550ae;
 }
 
-html:not(.dark) .highlight .chroma .kt { 
-  color: #d2a8ff; /* kt类型关键字 - 单独颜色 */
-}
-
+/* 运算符 */
 html:not(.dark) .highlight .chroma .o,
-html:not(.dark) .highlight .chroma .ow { 
-  color: #ff7b72; /* 运算符 */
+html:not(.dark) .highlight .chroma .ow {
+  color: #d73a49;
 }
 
+/* 字符串 */
 html:not(.dark) .highlight .chroma .s,
 html:not(.dark) .highlight .chroma .sb,
 html:not(.dark) .highlight .chroma .sc,
@@ -230,30 +231,33 @@ html:not(.dark) .highlight .chroma .sh,
 html:not(.dark) .highlight .chroma .si,
 html:not(.dark) .highlight .chroma .sx,
 html:not(.dark) .highlight .chroma .s1,
-html:not(.dark) .highlight .chroma .ss { 
-  color: #a5d6ff; /* 字符串 */
+html:not(.dark) .highlight .chroma .ss {
+  color: #0a3069;
 }
 
+/* 数字 */
 html:not(.dark) .highlight .chroma .m,
 html:not(.dark) .highlight .chroma .mb,
 html:not(.dark) .highlight .chroma .mf,
 html:not(.dark) .highlight .chroma .mh,
 html:not(.dark) .highlight .chroma .mi,
 html:not(.dark) .highlight .chroma .il,
-html:not(.dark) .highlight .chroma .mo { 
-  color: #a5d6ff; /* 数字 */
+html:not(.dark) .highlight .chroma .mo {
+  color: #0550ae;
 }
 
+/* 函数名和类型名 */
 html:not(.dark) .highlight .chroma .nf,
 html:not(.dark) .highlight .chroma .fm,
 html:not(.dark) .highlight .chroma .na,
 html:not(.dark) .highlight .chroma .nd,
 html:not(.dark) .highlight .chroma .ne,
 html:not(.dark) .highlight .chroma .nl,
-html:not(.dark) .highlight .chroma .nn { 
-  color: #d2a8ff; /* 函数名和类型名 */
+html:not(.dark) .highlight .chroma .nn {
+  color: #8250df;
 }
 
+/* 变量和内置类型 */
 html:not(.dark) .highlight .chroma .nb,
 html:not(.dark) .highlight .chroma .nc,
 html:not(.dark) .highlight .chroma .no,
@@ -261,58 +265,59 @@ html:not(.dark) .highlight .chroma .nv,
 html:not(.dark) .highlight .chroma .vc,
 html:not(.dark) .highlight .chroma .vg,
 html:not(.dark) .highlight .chroma .vi,
-html:not(.dark) .highlight .chroma .bp { 
-  color: #ffa657; /* 变量和内置类型 */
+html:not(.dark) .highlight .chroma .bp {
+  color: #953800;
 }
 
-html:not(.dark) .highlight .chroma .nt { 
-  color: #7ee787; /* 标签名 */
+/* 标签名 */
+html:not(.dark) .highlight .chroma .nt {
+  color: #116329;
 }
 
-html:not(.dark) .highlight .chroma .w { 
-  color: #c9d1d9; /* 空白字符 */
+/* 空白字符 */
+html:not(.dark) .highlight .chroma .w {
+  color: #24292f;
 }
 
-html:not(.dark) .highlight .chroma .p { 
-  color: #c9d1d9; /* 标点符号 */
+/* 标点符号 */
+html:not(.dark) .highlight .chroma .p {
+  color: #24292f;
 }
 
 /* 插入删除样式 */
-html:not(.dark) .highlight .chroma .gd { 
-  color: #ffa198; 
-  background: #490202;
+html:not(.dark) .highlight .chroma .gd {
+  color: #82071e;
+  background: #ffebe9;
+}
+html:not(.dark) .highlight .chroma .gi {
+  color: #116329;
+  background: #dafbe1;
 }
 
-html:not(.dark) .highlight .chroma .gi { 
-  color: #56d364; 
-  background: #033a16;
-}
-
+/* 错误 */
 html:not(.dark) .highlight .chroma .gr,
-html:not(.dark) .highlight .chroma .gt { 
-  color: #f85149; /* 错误 */
+html:not(.dark) .highlight .chroma .gt {
+  color: #cf222e;
 }
 
-html:not(.dark) .highlight .chroma .gh { 
-  color: #79c0ff; 
+/* 标题 */
+html:not(.dark) .highlight .chroma .gh {
+  color: #0550ae;
+  font-weight: bold;
 }
 
-html:not(.dark) .highlight .chroma .gu { 
-  color: #d2a8ff; 
-}
-
-/* 代码块标题样式 - 使用文档默认字体 */
+/* 统一代码块标题样式 */
 html:not(.dark) .highlight div.src-code-block .src-code-block-title {
-  background-color: #161b22;
-  color: #c9d1d9;
+  background-color: #f6f8fa;
+  color: #24292f;
   padding: 0.5em 1em;
-  border-bottom: 1px solid #30363d;
-  border-radius: 3px 3px 0 0;
+  border-bottom: 1px solid #d0d7de;
+  border-radius: 6px 6px 0 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
 html:not(.dark) .highlight div.src-code-block .chroma {
-  border-radius: 0 0 3px 3px;
+  border-radius: 0 0 6px 6px;
   margin-top: 0;
   border-top: none;
 }
