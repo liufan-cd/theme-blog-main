@@ -30,7 +30,7 @@ bio: 吃好喝好天天开心
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: qq.svg
+  - icon: qq
     url: 'https://qm.qq.com/q/coclhhZlGU'
     label: QQ
   # - icon: brands/x
