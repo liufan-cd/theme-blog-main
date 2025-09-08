@@ -1,8 +1,9 @@
 ---
 title: 🥟 markdown语法
 summary: markdown语法汇总
-date: 2025-08-06
+date: 2025-9-8
 math: true
+editable: false
 authors:
   - admin
 tags:
