@@ -84,6 +84,9 @@ tags:
 - 查看 Docker 系统信息  
   `docker info`
 
+  复制文件到 Docker 中
+  `docker cp config.json 容器ID或名称:/data/`
+
 ---
 
 ## 镜像构建

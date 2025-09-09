@@ -48,6 +48,15 @@ tags:
 将之前的字符串执行
 `-exec rm -rf {} \;`
 
+创建窗口
+`screen -R xxx`
+
+进入窗口
+`screen -r xxx`
+
+强制退出窗口，每一个窗口只能一个人使用
+`screen -d xxx`
+
 ---
 ## 网络
 
@@ -98,6 +107,14 @@ tags:
 
 使用sshkey登录其他服务器
 `ssh -i /home/chaoying/.ssh/id_rsa root@192.168.10.200`
+
+发送请求
+`wget https://baidu.com`
+`curl`
+
+路由追踪
+`yum install traceroute`
+`traceroute 117.175.145.53`
 
 ---
 ## 文件管理
