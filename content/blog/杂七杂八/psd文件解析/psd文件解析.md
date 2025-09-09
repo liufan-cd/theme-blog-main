@@ -14,7 +14,7 @@ tags:
 
 [参考blog](https://my.oschina.net/u/185335?tab=newest&catalogId=3507302)
 
-![psd文件结构](./psd文件结构.png)
+![psd文件结构](../psd文件结构.png)
 
 我们需要的信息就在 Layer and mask information 中
 ### java实现
@@ -162,6 +162,6 @@ public static Map<String, Layer> getLayer(String path) throws IOException {
 
 ### 解析结果
 
-![alt text](./QQ_1723630189553.png)
+![alt text](../QQ_1723630189553.png)
 
-![alt text](./QQ_1723630264001.png)
+![alt text](../QQ_1723630264001.png)
