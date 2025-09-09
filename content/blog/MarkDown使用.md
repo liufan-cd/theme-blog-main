@@ -1,7 +1,7 @@
 ---
 title: 🥟 markdown语法
 summary: markdown语法汇总
-date: 2025-9-8
+date: 2025-09-08
 math: true
 editable: false
 authors:
