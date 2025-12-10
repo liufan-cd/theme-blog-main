@@ -83,3 +83,23 @@ features:
     url: 'https://github.com/HugoBlox/hugo-blox-builder/'
     content_dir: starters/blog/content
     branch: main
+hugoblox:
+  theme:
+    pack: dracula
+    mode: dark
+    colors:
+      primary: ""
+      secondary: ""
+    colors_light:
+      primary: ""
+      secondary: ""
+      neutral: ""
+    colors_dark:
+      primary: ""
+      secondary: ""
+      neutral: ""
+  content:
+    math:
+      enable: true
+  layout:
+    radius: md

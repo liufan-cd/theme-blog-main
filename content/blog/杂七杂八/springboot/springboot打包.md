@@ -44,10 +44,10 @@ project/
 #### 依赖
 
 ```xml
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
+<plugin>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-maven-plugin</artifactId>
+</plugin>
 ```
 
 #### 为什么要自定义打包插件
