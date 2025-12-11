@@ -7,6 +7,11 @@ authors:
   - admin
 tags:
   - markdown
+image:
+  filename: "Image_1752969389136.jpg"
+  focal_point: Smart
+  preview_only: false
+  alt_text: "随机图片"
 ---
 
 1. 标题

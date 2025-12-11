@@ -7,6 +7,11 @@ authors:
 tags:
   - markdown
   - python
+image:
+  filename: "Image_1753955925580.jpg"
+  focal_point: Smart
+  preview_only: false
+  alt_text: "随机图片"
 ---
 ## 简介
 想要快速在浏览器中展示markdown文件

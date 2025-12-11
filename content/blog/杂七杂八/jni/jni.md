@@ -6,6 +6,11 @@ authors:
   - admin
 tags:
   - java与语言交互
+image:
+  filename: "Image_1756769917911.png"
+  focal_point: Smart
+  preview_only: false
+  alt_text: "随机图片"
 ---
 ## JNI
 

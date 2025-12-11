@@ -6,6 +6,11 @@ authors:
   - admin
 tags:
   - java与其他语言交互
+image:
+  filename: "Image_1752969385133.jpg"
+  focal_point: Smart
+  preview_only: false
+  alt_text: "随机图片"
 ---
 ## 简介
 java调用js文件实现方式

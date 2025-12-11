@@ -7,6 +7,11 @@ authors:
 tags:
   - python
   - 软件安装
+image:
+  filename: "Image_1753955935276.jpg"
+  focal_point: Smart
+  preview_only: false
+  alt_text: "随机图片"
 ---
 ## python
 ### python安装

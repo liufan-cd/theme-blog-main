@@ -7,6 +7,11 @@ authors:
 tags:
   - docker
   - 命令
+image:
+  filename: "Image_1757402969082.jpg"
+  focal_point: Smart
+  preview_only: false
+  alt_text: "随机图片"
 ---
 # Docker 常用命令整理
 

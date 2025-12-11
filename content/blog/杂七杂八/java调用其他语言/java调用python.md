@@ -6,6 +6,11 @@ authors:
   - admin
 tags:
   - java与其他语言交互
+image:
+  filename: "Image_1752969386553.jpg"
+  focal_point: Smart
+  preview_only: false
+  alt_text: "随机图片"
 ---
 ## 简介
 使用java语言调用python

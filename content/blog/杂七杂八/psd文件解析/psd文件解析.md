@@ -6,6 +6,11 @@ authors:
   - admin
 tags:
   - 文件解析
+image:
+  filename: "Image_1756769914770.png"
+  focal_point: Smart
+  preview_only: false
+  alt_text: "随机图片"
 ---
 ## 概述
 在和朋友一起做游戏的时候发现，朋友给的psd文件，图层导出成png图片之后，放入unity中还需要自己再设置每一个图层的位置，十分麻烦。基于偷懒想法，准备自己解析psd文件，获取图层信息。

@@ -8,6 +8,11 @@ tags:
   - git
   - 命令
   - 软件安装
+image:
+  filename: "Image_1756769910334.jpg"
+  focal_point: Smart
+  preview_only: false
+  alt_text: "随机图片"
 ---
 ## 简介
 Git是一个免费的、开源的分布式版本控制系统，可以快速高效的处理从小型到大型的各种项目。方便快捷管理所有文件版本。

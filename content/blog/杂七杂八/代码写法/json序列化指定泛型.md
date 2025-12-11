@@ -6,6 +6,11 @@ authors:
   - admin
 tags:
   - other
+image:
+  filename: "Image_1752969387894.jpg"
+  focal_point: Smart
+  preview_only: false
+  alt_text: "随机图片"
 ---
 
 ```java

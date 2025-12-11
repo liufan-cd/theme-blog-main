@@ -6,6 +6,11 @@ authors:
   - admin
 tags:
   - spring
+image:
+  filename: "Image_1756769910334.jpg"
+  focal_point: Smart
+  preview_only: false
+  alt_text: "随机图片"
 ---
 ## springboot打包
 ### springboot包目录结构

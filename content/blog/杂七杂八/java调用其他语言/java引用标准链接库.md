@@ -6,6 +6,11 @@ authors:
   - admin
 tags:
   - java与其他语言交互
+image:
+  filename: "Image_1752969383788.jpg"
+  focal_point: Smart
+  preview_only: false
+  alt_text: "随机图片"
 ---
 ## 问题描述
 数据采集卡使用pcie通道连接pc，将数据直接写入内存中，并编写了标准链接库，用于操作数据。现需要使用java代码调用c代码。
