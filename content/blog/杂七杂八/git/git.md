@@ -43,53 +43,85 @@ ssh key 目录地址
 ![ssh_key公钥地址](../ssh_key公钥地址.png)
 
 生成ssh key：comment为任意文本，用于区别ssh key
-`ssh-keygen -t rsa -C "comment"`
+```bash
+ssh-keygen -t rsa -C "comment"
+```
 
 设置ssh key
 以git hub为例，其他所有的服务器类似，都是通过将ssh key的公钥上传服务器，用于连接验证
 ![ssh_key设置](../ssh_key设置.png)
 
 创建git仓库
-`git init`
+```bash
+git init
+```
 
 指定远程仓库：url为远程仓库地址，可以是ssh连接形式，也可以是http形式
-`git remote add url`
+```bash
+git remote add url
+```
 
 推送项目：origin为远程仓库名
-`git push origin`
+```bash
+git push origin
+```
 
 创建新的分支：branch为新分支名字
-`git checkout -b branch`0
+```bash
+git checkout -b branch
+```
 
 根据远程仓库中的分支，创建新的本地分支：branch为创建分支名字，origin_branch为远程分支名字
-`git checkout -b branch origin/origin_branch`
+```bash
+git checkout -b branch origin/origin_branch
+```
 
 切换分支：branch为切换分支
-`git checkout branch`
+```bash
+git checkout branch
+```
 
 查看暂存区状态
-`git status`
+```bash
+git status
+```
 
 git仓库添加文件：file为新加文件
-`git add file`
+```bash
+git add file
+```
 
 提交：message提交信息
-`git commit -m message`
+```bash
+git commit -m message
+```
 
 推送：origin远程仓库名，可以通过git remote设置别名
-`git push origin`
+```bash
+git push origin
+```
 
 推送：origin远程仓库名，可以通过git remote设置别名，branch为指定分支
-`git pull origin branch`
+```bash
+git pull origin branch
+```
 
 指定邮箱：email为自定义邮箱
-`git config --global user.email "email"`
+```bash
+git config --global user.email "email"
+```
 
 指定用户：user为自定义用户
-`git config --global user.name "user"`
+```bash
+git config --global user.name "user"
+```
 
 重置文件：file_name为文件名
-`git restore file_name`
+```bash
+git restore file_name
+```
 
 删除文件：file_name为文件名
-`git rm file_name`
+```bash
+git rm file_name
+```
