@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: "Yuan Qi's Blog" # Website name
-baseURL: 'http://http://8.137.104.191:1313/' # Website URL
+baseURL: 'http://8.137.104.191:1313/' # Website URL
 
 ############################
 ## PAGE OPTIONS
