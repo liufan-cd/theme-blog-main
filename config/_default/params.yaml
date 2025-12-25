@@ -45,7 +45,7 @@ header:
     # Shop a call-to-action button in the top right?
     button:
       enable: true
-      text: "Get Started"
+      text: "HugoBlox文档"
       url: "https://hugoblox.com/templates/"
     # Let the user choose between light or dark mode?
     show_theme_chooser: true
@@ -86,7 +86,7 @@ features:
 hugoblox:
   theme:
     pack: dracula
-    mode: dark
+    mode: light
     colors:
       primary: ""
       secondary: ""
