@@ -84,6 +84,9 @@ features:
     content_dir: starters/blog/content
     branch: main
 hugoblox:
+  typography:
+    font: "sans"  # sans | serif | native
+    size: "xl"    # sm | md | lg | xl
   theme:
     pack: dracula
     mode: light

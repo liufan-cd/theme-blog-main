@@ -5,7 +5,7 @@ date: 2025-08-05
 authors:
   - admin
 tags:
-  - java与语言交互
+  - java与其他语言交互
 image:
   filename: "Image_1752540306767.png"
   focal_point: Smart
