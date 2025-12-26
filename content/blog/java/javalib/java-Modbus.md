@@ -82,6 +82,19 @@ modpoll -m rtu -p COM3 -b 9600 -a 1 -r 0 -w 123
 ### Linux
 Linux下的Modbus串口调试逻辑与Windows一致，但查询串口、权限处理、modpoll安装略有不同：
 
+#### 0. 驱动安装
+
+对于USB转串口，高版本ubuntu是将驱动默认添加内核模块的，低版本需要自己手动安装模块。
+
+```bash
+lsmod | grep pl2303
+```
+
+安装驱动
+```bash
+sudo modprobe pl2303
+```
+
 #### 1. 查询串口
 Linux下无可视化设备管理器，通过命令行查询串口：
 
